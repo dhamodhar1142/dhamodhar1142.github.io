@@ -7,8 +7,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ site.data.main_info.name }}</title>
-  <meta name="description" content="Homepage of Laxminarayana Vadnala">
-  <meta name="author" content="Laxminarayana Vadnala">
+  <meta name="description" content="Homepage of Dhamodhar Reddy Atla">
+  <meta name="author" content="Dhamodhar Reddy Atla">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -76,13 +76,13 @@
           <h1>{{ site.data.main_info.name }}</h1>
           <p>{{ site.data.main_info.title }}</p>
           <p>{{ site.data.main_info.title2 }}</p>
-          <p>
+          <!-- <p>
             <a>
               <span onclick="window.open('mailto:{{ site.data.main_info.email }}')" style="cursor: pointer">
                 <i class="fa fa-envelope" aria-hidden="true"></i> {{ site.data.main_info.email }}
               </span>
             </a>
-          </p>
+          </p> -->
           <p>
             <a>
               <span onclick="window.open('mailto:{{ site.data.main_info.personalEmail }}')" style="cursor: pointer">
@@ -94,16 +94,8 @@
             <span onclick="window.open('{{ site.data.main_info.cv }}')" style="cursor: pointer">
               <i class="fa fa-download" aria-hidden="true"></i> View Resume
             </span>
-          </p>
-          <p>
-            <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-              <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
-            </span>
-
-            <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </span>
-
+          <!-- </p>
+          <p> -->
             <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
               <i class="fa fa-github" aria-hidden="true"></i>
             </span>
@@ -125,12 +117,8 @@
           </li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#education" | prepend: site.baseurl
               }}>Education</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#news" | prepend: site.baseurl }}>News</a>
-          </li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl
               }}>Projects</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl
-              }}>Publications</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>CV</a>
           </li>
         </ul>
